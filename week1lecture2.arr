@@ -49,6 +49,6 @@ beside(circle(30, "solid", "blue"), rectangle(80,70, "solid", "yellow"))
 
 octagon1 = regular-polygon(60, 8 , "outline", "white")
 octagon2 = regular-polygon(59, 8, "solid", "red")
-stop = text("STOP", 35, "white")
+stoptxt = text("STOP", 35, "white")
 oct3 = overlay(octagon1, octagon2)
-overlay(stop, oct3)
+overlay(stoptxt, oct3)
