@@ -77,5 +77,16 @@ final_flag
 ball = circle(50, "solid", "yellow")
 outer = circle(51, "outline", "blue")
 full_ball = overlay(outer, ball)
-redstar = star(35, "solid", "red")
+redstar = star(20, "solid", "red")
 overlay(redstar, full_ball)
+
+top = flip-vertical(triangle(20, "outline", "blue"))
+reg = triangle(20, "outline", "blue")
+dav = overlay(top, reg)
+base1 = rectangle(140, 80, "solid", "white")
+fl = overlay(dav, base)
+top1 = rectangle(140, 15, "solid", "blue")
+y = overlay-xy(top1, 0, -5, fl)
+bot = rectangle(140, 15, "solid", "blue")
+israel = overlay-xy(bot, 0, -60, y)
+israel
